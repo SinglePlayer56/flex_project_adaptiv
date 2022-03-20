@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import 'null_style.scss';
+
+body {
+  font-family: 'Titillium Web';
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.header {
+  background: #87509c;
+  &__row {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+  }
+  &__menu {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    a {
+      padding: 3px 15px;
+      color: #fff;
+      border-radius: 4px;
+      &:hover {
+        background: #643a79;
+      }
+    }
+  }
+}
+//////////////////////////////////////////////////////
+.content {
+  flex: 1 1 auto;
+}
+.button {
+  position: relative;
+  padding: 20px 58px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border-radius: 4px;
+  box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  &__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__header {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    &::after {
+      content: '';
+      position: relative;
+      top: 0px;
+      left: 40%;
+      width: 87px;
+      height: 4px;
+      background: #000;
+      opacity: 0.14;
+      display: block;
+      text-align: center;
+      margin: 21px 0;
+    }
+  }
+  &__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+  }
+}
+
+///////////////////////////////////////////////
+.hi {
+  background: #87509c;
+  &__row {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__title {
+    text-align: center;
+    font-size: 42.2px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #f7feea;
+    margin: 0 0 54px 0;
+  }
+  &__button {
+    background: #eb7d4b;
+  }
+}
+////////////////////////////
+.services {
+  background: #17c2a4;
+  min-height: 747px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__row {
+    display: flex;
+  }
+  &__head {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  &__body {
+    margin: 83px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+.columnbody {
+  flex: 0 1 18%;
+  color: #fff;
+  text-align: center;
+  &__row {
+    display: flex;
+    flex-direction: column;
+  }
+  &__img {
+    margin: 0 0 62px 0;
+  }
+  &__title {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 27px;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+}
+////////////////////////////////////////////////////////
+.meet {
+  background: #e7f1f8;
+  &__row {
+    min-height: 914px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    color: #3c4761;
+    margin: 0 0 78px 0;
+  }
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.meetcolumn {
+  flex: 0 1 18%;
+  text-align: center;
+  &__row {
+    display: flex;
+    flex-direction: column;
+  }
+  &__img {
+    border-radius: 50%;
+  }
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #27283d;
+    margin: 41px 0 15px;
+  }
+  &__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #30bae7;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #3c4761;
+
+    margin: 26px 0 31px;
+  }
+  &__icons {
+    a {
+      margin: 0 6px;
+    }
+  }
+}
+///////////////////////////////////////////////////////
+.skills {
+  &__row {
+    min-height: 655px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__title {
+    max-width: 585px;
+    color: #3c4761;
+    margin: 0 auto;
+  }
+  &__body {
+    margin: 84px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.skillsbody {
+  text-align: center;
+  flex: 0 1 25%;
+  &__row {
+  }
+  &__img {
+    margin: 0 0 32px 0;
+  }
+  &__title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3c4761;
+  }
+}
+///////////////////////////////////////////////////////////
+.portfolio {
+  background: #ffdd99;
+  &__row {
+    min-height: 1423px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    color: #393939;
+    max-width: 525px;
+    margin: 0 auto;
+  }
+  &__menu {
+    margin: 42px 0 62px 0;
+    a {
+      font-size: 18px;
+      font-weight: 400;
+      color: #393939;
+      padding: 3px 20px;
+      border-radius: 3px;
+      background: #ebcc8d;
+      margin: 0 3px;
+      &:hover {
+        background: #fff;
+      }
+    }
+  }
+  &__body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__button {
+    background: #17c2a4;
+  }
+}
+
+.portfoliobody {
+  flex: 0 1 50%;
+  text-align: center;
+  margin: 0 0 50px 0;
+  &__row {
+    display: flex;
+    flex-direction: column;
+  }
+  &__img {
+    margin: 0 0 27px 0;
+  }
+  &__title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #393939;
+  }
+}
+
+//////////////////////////////////////////////////////////
+.footer {
+  background: #344b8e;
+
+  &__row {
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__text {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    a {
+      color: #fff;
+      margin: 0 15px;
+      &:hover {
+        color: #30bae7;
+      }
+    }
+  }
+}
