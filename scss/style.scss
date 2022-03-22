@@ -12,13 +12,13 @@ body {
 }
 .container {
   margin: 0 auto;
-  max-width: 1100px;
+  max-width: 1105px;
 }
 
 .header {
   background: #87509c;
   &__row {
-    height: 100px;
+    height: 151px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,11 +58,8 @@ body {
 .title {
   color: #fff;
   text-align: center;
-  &__row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  margin: 0 auto;
+
   &__header {
     font-size: 40px;
     text-transform: uppercase;
@@ -72,7 +69,7 @@ body {
       content: '';
       position: relative;
       top: 0px;
-      left: 40%;
+      left: 42%;
       width: 87px;
       height: 4px;
       background: #000;
@@ -93,20 +90,15 @@ body {
 ///////////////////////////////////////////////
 .hi {
   background: #87509c;
-  &__row {
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+  text-align: center;
+  padding: 88px 0 145px 0;
   &__title {
     text-align: center;
     font-size: 42.2px;
     line-height: 48px;
     font-weight: 700;
     color: #f7feea;
-    margin: 0 0 54px 0;
+    margin: 0px 0 54px 0;
   }
   &__button {
     background: #eb7d4b;
@@ -115,15 +107,8 @@ body {
 ////////////////////////////
 .services {
   background: #17c2a4;
-  min-height: 747px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  &__row {
-    display: flex;
-  }
-  &__head {
-    margin: 0 auto;
+  padding: 119px 0 128px 0;
+  &__title {
     max-width: 600px;
   }
   &__body {
@@ -137,10 +122,6 @@ body {
   flex: 0 1 18%;
   color: #fff;
   text-align: center;
-  &__row {
-    display: flex;
-    flex-direction: column;
-  }
   &__img {
     margin: 0 0 62px 0;
   }
@@ -159,18 +140,14 @@ body {
 ////////////////////////////////////////////////////////
 .meet {
   background: #e7f1f8;
-  &__row {
-    min-height: 914px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  padding: 119px 0 128px 0;
   &__title {
+    margin: 0 auto;
     color: #3c4761;
-    margin: 0 0 78px 0;
+    max-width: 650px;
   }
   &__body {
+    margin: 78px 0 0 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -180,10 +157,7 @@ body {
 .meetcolumn {
   flex: 0 1 18%;
   text-align: center;
-  &__row {
-    display: flex;
-    flex-direction: column;
-  }
+
   &__img {
     border-radius: 50%;
   }
@@ -215,12 +189,7 @@ body {
 }
 ///////////////////////////////////////////////////////
 .skills {
-  &__row {
-    min-height: 655px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+  padding: 117px 0 122px 0;
   &__title {
     max-width: 585px;
     color: #3c4761;
@@ -236,8 +205,6 @@ body {
 .skillsbody {
   text-align: center;
   flex: 0 1 25%;
-  &__row {
-  }
   &__img {
     margin: 0 0 32px 0;
   }
@@ -252,13 +219,8 @@ body {
 ///////////////////////////////////////////////////////////
 .portfolio {
   background: #ffdd99;
-  &__row {
-    min-height: 1423px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  padding: 120px 0 109px 0;
+  text-align: center;
   &__title {
     color: #393939;
     max-width: 525px;
@@ -292,10 +254,6 @@ body {
   flex: 0 1 50%;
   text-align: center;
   margin: 0 0 50px 0;
-  &__row {
-    display: flex;
-    flex-direction: column;
-  }
   &__img {
     margin: 0 0 27px 0;
   }
@@ -304,6 +262,96 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     color: #393939;
+  }
+}
+// =================================================//
+.about-us {
+  background: #d74680;
+  padding: 119px 0 0 0;
+  &__title {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  &__body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 147px 95px;
+    margin: 71px 0 0 0;
+  }
+}
+
+.bodyblock {
+  flex: 0 1 500px;
+  display: flex;
+  gap: 48px;
+  margin: 0 0 128px 0;
+
+  &__photo {
+  }
+  &__comments {
+    flex: 0 1 350px;
+  }
+  &__text {
+    font-size: 21px;
+    line-height: 31px;
+    font-style: italic;
+    color: #fff;
+    margin: 0 0 28px 0;
+  }
+  &__name {
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 26px;
+    color: #fff;
+    margin: 0 0 9px 0;
+  }
+  &__function {
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffdd99;
+  }
+}
+// ================================================== //
+.get {
+  background: #3c5499;
+  padding: 120px 0 0 0;
+  &__title {
+    max-width: 780px;
+  }
+  &__input {
+    margin: 76px 0 0 0;
+  }
+}
+.input-field {
+  background: #273a71;
+  flex: 0 1 414px;
+  border-radius: 3px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 18px;
+  padding: 14.5px 25px;
+  font-family: inherit;
+  &::placeholder {
+    color: #fff;
+  }
+}
+
+.input {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px 32px;
+  justify-content: center;
+  font-family: inherit;
+  &__message {
+    flex: 0 1 860px;
+    height: 200px;
+    margin: 0 0 59px 0;
+  }
+  &__button {
+    background: #30bae7;
+    box-shadow: 0 3px 0px 0px #30b9e796;
+    margin: 0 0 115px 0;
   }
 }
 
