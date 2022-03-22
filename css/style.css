@@ -434,7 +434,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 147px 95px;
+  gap: 50px 95px;
   margin: 71px 0 0 0;
 }
 
@@ -447,6 +447,10 @@ body {
   display: flex;
   gap: 48px;
   margin: 0 0 128px 0;
+}
+
+.bodyblock__photo {
+  border-radius: 50%;
 }
 
 .bodyblock__comments {

@@ -275,7 +275,7 @@ body {
   &__body {
     display: flex;
     flex-wrap: wrap;
-    gap: 147px 95px;
+    gap: 50px 95px;
     margin: 71px 0 0 0;
   }
 }
@@ -287,6 +287,7 @@ body {
   margin: 0 0 128px 0;
 
   &__photo {
+    border-radius: 50%;
   }
   &__comments {
     flex: 0 1 350px;
