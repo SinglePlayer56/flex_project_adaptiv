@@ -353,6 +353,14 @@ body {
     align-items: center;
   }
 }
+@media (max-width: 363px) {
+  .portfolio__menu {
+    a {
+      font-size: 12px;
+    }
+  }
+}
+
 // =================================================//
 .about-us {
   background: #d74680;
