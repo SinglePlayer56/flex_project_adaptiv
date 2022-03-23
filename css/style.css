@@ -151,7 +151,7 @@ body {
 
 @media (max-width: 550px) {
   .header__menu {
-    font-size: 13px;
+    font-size: 10px;
   }
 }
 
@@ -775,7 +775,7 @@ body {
 
 @media (max-width: 480px) {
   .footer__text {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 
